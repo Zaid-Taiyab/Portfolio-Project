@@ -1,111 +1,118 @@
 <!DOCTYPE html>
 <html>
-	<head>
-		<meta charset="utf-8">
-		<meta name="viewport" content="width=device-width">
-		<title>Your Portfolio</title>
-		<link href="style.css" rel="stylesheet" type="text/css" />
-		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css">
-		<link rel="icon" href="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Repl.it_logo.svg/220px-Repl.it_logo.png">
-		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-	</head>
-	<body>
-		<div class="container">
-			<!--────────────────Header───────────────-->
-			<header>
-				<a class="logo" href="#home">
-					<img src="https://newsletter-images--timmy-i-chen.repl.co/logo-light.png" alt="logo" />
-				</a>
-				<nav>
-					<ul class="nav-bar">
-						<div class="bg"></div>
-						<li><a class="nav-link active" href="#home">Home</a></li>
-						<li><a class="nav-link" href="#projects">Projects</a></li>
-						<li><a class="nav-link" href="#contact">Contact</a></li>
-					</ul>
-					<div class="hamburger">
-						<div class="line1"></div>
-						<div class="line2"></div>
-						<div class="line3"></div>
-					</div>
-				</nav>
-			</header>
-			<main>
-				<!--─────────────────Home────────────────-->
-				<div id="home">
-					<div class="filter"></div>
-					<section class="intro">
-						<h3>Zaid Taiyab<hr></h3>
-						<p>Computer Science Student at Arizona State University with a GPA of 4.0. </p>
-						<p>Passionate about software development and data science.</p>
-						<!--────social media links─────-->
-						<div class="social-media">
-							<a href="https://github.com/Zaid-Taiyab" target="_blank"><i class='fab fa-github'></i></a>
-							<a href="https://linkedin.com/in/zaid-taiyab-96b1b3257" target="_blank"><i class='fab fa-linkedin-in'></i></a>
-						</div>
-					</section>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width">
+	<title>Portfolio Site</title>
+	<link href="style.css" rel="stylesheet" type="text/css" />
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css">
+	<link rel="icon" href="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Repl.it_logo.svg/220px-Repl.it_logo.png">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<script src="script.js"></script>
+</head>
+
+<body>
+	<div class="container">
+		<!--────────────────Header───────────────-->
+		<header>
+			<a class="logo" href="#home">		
+			</a>
+			<nav>
+				<ul class="nav-bar">
+					<div class="bg"></div>
+					<li><a class="nav-link active" href="#home">Home</a></li>
+					<li><a class="nav-link" href="#projects">Projects</a></li>
+					<li><a class="nav-link" href="#contact">Contact</a></li>
+				</ul>
+				<div class="hamburger">
+					<div class="line1"></div>
+					<div class="line2"></div>
+					<div class="line3"></div>
 				</div>
-				<!--───────────────Projects───────────────-->
-				<div id="projects">
-					<h3>My Projects.<hr></h3>
-					<p>Here are some of my projects you might find interesting.</p>
-					<div class="work-box">
-						<div class="work">
-							<!--───────────────card───────────────-->
-							<div class="card">
-								<img class="work-img" src="https://images.unsplash.com/photo-1518611507436-f9221403cca2?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1225&q=80">
-								<a href="" target="_blank"> <!--Link to project-->
-									<div class="work-content">
-										<h4>Pokémon Game | C++</h4>
-										<p>Simulates Pokémon gym battles with turn-based mechanics and unique abilities for each Pokémon. Implemented a badge system to track player progress.</p>
-									</div>
-								</a>
-							</div>
-							<div class="card">
-								<img class="work-img" src="https://images.unsplash.com/photo-1462642109801-4ac2971a3a51?ixlib=rb-1.2.1&auto=format&fit=crop&w=1266&q=80">
-								<a href="" target="_blank"> <!--Link to project-->
-									<div class="work-content">
-										<h4>Beats-Browser | C</h4>
-										<p>Console-based song management system with sorting algorithms for organizing songs by genre, artist, or title. Ensured quick search and retrieval of songs.</p>
-									</div>
-								</a>
-							</div>
-							<div class="card">
-								<img class="work-img" src="https://images.unsplash.com/photo-1485815457792-d1a966f9bde0?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80">
-								<a href="" target="_blank"> <!--Link to project-->
-									<div class="work-content">
-										<h4>Project SPYN | MATLAB</h4>
-										<p>Designed and developed a self-driving Lego Technic vehicle with a team. Led assembly and testing, and programmed the interface to connect the vehicle to the EV3 brick.</p>
-									</div>
-								</a>
-							</div>
-						</div>
-					</div>
-				</div>
-				<!--──────────────Contact────────────────-->
-				<div id="contact">
+			</nav>
+		</header>
+		<main>
+			<!--─────────────────Home────────────────-->
+			<div id="home">
+				<div class="filter"></div>
+				<section class="intro">
+					<h3>Zaid Taiyab<hr></h3>
+					<p>Pursuing a Bachelor of Science in Computer Science and a minor in Data Science at Arizona State University, I'm currently a Software Engineer Fellow at Headstarter AI, and previously a GenAITechLab Fellow at GenAITechLab.com.</p>
 					<!--────social media links─────-->
-					<h3>Contact.<hr></h3>
-					<p>Feel free to contact me on my social media.</p>
 					<div class="social-media">
-						<a href="https://codepen.io/" target="_blank"><i class='fab fa-codepen'></i></a>
-						<a href="https://twitter.com/" target="_blank"><i class='fab fa-twitter'></i></a>
-						<a href="https://github.com/" target="_blank"><i class='fab fa-github'></i></a>
-						<a href="https://linkedin.com/" target="_blank"><i class='fab fa-linkedin-in'></i></a>
-						<a href="https://youtube.com/" target="_blank"><i class="fab fa-youtube"></i></a>
+						<a href="https://github.com/Zaid-Taiyab" target="_blank"><i class='fab fa-github'></i></a>
+						<a href="https://www.linkedin.com/in/zaid-taiyab-96b1b3257/" target="_blank"><i class='fab fa-linkedin'></i></a>
+					</div>
+
+				</section>
+			</div>
+
+			<!--───────────────Projects───────────────-->
+			<div id="projects">
+				<h3>My Projects.<hr></h3>
+				<p>Here are some of my projects you might find interesting.</p>
+				<div class="work-box">
+					<div class="work">
+						<!--───────────────card───────────────-->
+						<div class="card">
+							<img class="work-img" src="Pokemon.jpeg" alt="Pokemon Game">
+							<a href="https://github.com/Zaid-Taiyab/Pokemon-Game" target="_blank">
+								<div class="work-content">Pokémon Game | C++ <br>Simulates Pokémon gym battles with turn-based mechanics and unique abilities for each Pokémon. Implemented a badge system to track player progress.</div>
+							</a>
+						</div>
+						<div class="card">
+							<img class="work-img" src="Beats.jpeg" alt="Beats Browser">
+							<a href="https://github.com/Zaid-Taiyab/Beats-Browser" target="_blank">
+								<div class="work-content">Beats-Browser | C <br>Console-based song management system with sorting algorithms for organizing songs by genre, artist, or title. Ensured quick search and retrieval of songs.</div>
+							</a>
+						</div>
+						<div class="card">
+							<img class="work-img" src="SPYN.jpg" alt="Project SPYN">
+							<a href="https://github.com/Zaid-Taiyab/Project-SPYN" target="_blank">
+								<div class="work-content">Project SPYN | MATLAB <br>Designed and developed a self-driving Lego Technic vehicle with a team. Led assembly and testing, and programmed the interface to connect the vehicle to the EV3 brick.</div>
+							</a>
+						</div>
+						<div class="card">
+							<img class="work-img" src="Weather.png" alt="Weather Application">
+							<a href="https://github.com/Zaid-Taiyab/Weather-Application" target="_blank">
+								<div class="work-content">Weather Application | JavaScript <br>Web based application created using Node.js, EJS, and CSS to show accurate weather conditions of any city in the world.</div>
+							</a>
+						</div>
+						<div class="card">
+							<img class="work-img" src="Graph.jpeg" alt="NoGAN Synthesizer">
+							<a href="https://github.com/Zaid-Taiyab/NoGANSynthesizer" target="_blank">
+								<div class="work-content">NoGANSynthesizer | Python <br>Synthetic data generation and evaluation pipeline for telecom churn using quantile-based binning and Kolmogorov-Smirnov test, without using Generative Adversarial Networks.</div>
+							</a>
+						</div>
+						<div class="card">
+							<img class="work-img" src="MUD.jpeg" alt="Multi-User Dungeon Game">
+							<a href="https://github.com/Zaid-Taiyab/Multi-User-Dungeon-Game" target="_blank">
+								<div class="work-content">Multi-User Dungeon Game | C++ <br>This C++ MUD game allows players to traverse, teleport, collect items, engage in combat with mobs, and explore a dynamic virtual world together.</div>
+							</a>
+						</div>
 					</div>
 				</div>
-			</main>
-			<footer class="copyright">© 2024 
-				<a href="https://replit.com/@yourusername" target="_blank"> Your Name.</a>
-			</footer>
-		</div>
-		<!--
-		This script places a badge on your repl's full-browser view back to your repl's cover
-		page. Try various colors for the theme: dark, light, red, orange, yellow, lime, green,
-		teal, blue, blurple, magenta, pink!
-		-->
-		<script src="https://replit.com/public/js/replit-badge.js" theme="blue" defer></script>  
-		<script src="script.js"></script>
-	</body>
+			</div>
+
+			<!--──────────────Contact────────────────-->
+			<div id="contact">
+				<!--────social media links─────-->
+				<h3>Contact.<hr></h3>
+				<p>Feel free to contact me on my social media.</p>
+				<div class="social-media">
+					<a href="https://github.com/Zaid-Taiyab" target="_blank"><i class='fab fa-github'></i></a>
+					<a href="https://www.linkedin.com/in/zaid-taiyab-96b1b3257/" target="_blank"><i class='fab fa-linkedin'></i></a>
+				</div>
+			</div>
+
+		</main>
+		<footer class="copyright">© 2024
+			<a href="https://github.com/Zaid-Taiyab" target="_blank"> Zaid Taiyab.</a>
+		</footer>
+
+	</div>
+</body>
+
 </html>
+
